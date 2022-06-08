@@ -6,14 +6,28 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-06-01T22:33:03-05:00"
+      "last_modified": "2022-06-07T20:33:38-05:00"
     },
     {
       "path": "index.html",
       "title": "My Blog",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-06-01T22:33:03-05:00"
+      "contents": "\nBlog Ixa Colombia SAS\n\n\n\n",
+      "last_modified": "2022-06-07T20:33:39-05:00"
+    },
+    {
+      "path": "paquetes.html",
+      "title": "Como construir un paquete con RStudio",
+      "description": "Pasos a seguir para la construcción de un paquete de R.\n",
+      "author": [
+        {
+          "name": "Daniel Enrique Gonzalez",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nCon el fin de tener de recordar los pasos para la contrucción de un\npaquete de R decidí recopilar la información y asi tenerla a mano en\ncaso de necesitarla\nRequerimientos:\nTener instalado R y RStudio. (2) Instalar en R los paquetes :\ndistill, Roxygen2 y devtools .\nTambien es necesario tener una cuenta en GitHub\nCreación del paquete\nEl primer paso es abrir un nuevo proyecto ( File / New Project / New\nDirectory)\n\nEn la ventana que se despliega elegimos : R Package\n\nLa siguiente ventana nos permite colocar el nombre del paquete, crear\nun repositorio en git y usar renv con este proyecto\n\nEl resultado de este proceso es la generacion de un proyecto que\ncontiene unos archivos y directorios predeterminados y a los cuales\npodemos personalizar\nAhora dentro del paquete podemos albergar : funciones, set de datos y\ntutoriales\nTutoriales\nDataset\nFunciones\n\n\n\n",
+      "last_modified": "2022-06-07T20:38:34-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

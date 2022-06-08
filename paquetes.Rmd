@@ -1,0 +1,52 @@
+---
+title: "Como construir un paquete con RStudio"
+description: |
+ Pasos a seguir para la construcción de un paquete de R.
+author:
+  - name: Daniel Enrique Gonzalez 
+    affiliation: Ixa  Colombia
+    affiliation_url: www.ixacolombia.com
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Con el fin de tener de recordar los pasos para la contrucción de un paquete de R decidí recopilar la información y asi tenerla a mano en caso de necesitarla
+
+# Requerimientos: 
+
+(1) Tener instalado R y RStudio. (2) Instalar en R los paquetes : `distill`,  `Roxygen2` y `devtools` . Tambien es necesario tener una cuenta en GitHub
+
+# Creación del paquete
+
+ El primer paso es abrir un nuevo proyecto ( File / New Project / New Directory)        
+
+
+![](img/menu1.png)
+
+En la ventana que se despliega elegimos : R Package
+
+![](img/menu2.png)
+
+
+La siguiente ventana nos permite colocar el nombre del paquete, crear un repositorio en git y usar renv con este proyecto
+
+![](img/menu3.png)
+
+
+El resultado de este proceso es la generacion de un proyecto que contiene unos archivos y directorios predeterminados y a los cuales podemos personalizar
+
+
+Ahora dentro del paquete podemos albergar : funciones, set de datos y tutoriales
+
+# Tutoriales
+
+
+# Dataset
+
+
+# Funciones
+
